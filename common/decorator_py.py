@@ -1,8 +1,7 @@
 def changecase(func):
-    return (func().upper())
-  
-#   def myinner():
-#   return myinner
+  def myinner():
+    return func().upper() 
+  return myinner
 
 @changecase
 def myfunction():
